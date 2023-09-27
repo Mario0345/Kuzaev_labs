@@ -1,0 +1,56 @@
+D:\shitty code\c# code\bin\Debug\netcoreapp3.1\c# code.exe
+D:\shitty code\c# code\bin\Debug\netcoreapp3.1\c# code.deps.json
+D:\shitty code\c# code\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.json
+D:\shitty code\c# code\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.dev.json
+D:\shitty code\c# code\bin\Debug\netcoreapp3.1\c# code.dll
+D:\shitty code\c# code\bin\Debug\netcoreapp3.1\c# code.pdb
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.AssemblyInfoInputs.cache
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.AssemblyInfo.cs
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.csproj.CoreCompileInputs.cache
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.dll
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.pdb
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.genruntimeconfig.cache
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.csproj.AssemblyReference.cache
+D:\shitty code\c# code\obj\Debug\netcoreapp3.1\c# code.GeneratedMSBuildEditorConfig.editorconfig
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.csproj.AssemblyReference.cache
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.GeneratedMSBuildEditorConfig.editorconfig
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.AssemblyInfoInputs.cache
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.AssemblyInfo.cs
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.csproj.CoreCompileInputs.cache
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.dll
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.pdb
+D:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.exe
+D:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.deps.json
+D:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.json
+D:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.dev.json
+D:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.dll
+D:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.pdb
+D:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.genruntimeconfig.cache
+C:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.exe
+C:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.deps.json
+C:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.json
+C:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.dev.json
+C:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.dll
+C:\shitty code\c# code 5\bin\Debug\netcoreapp3.1\c# code.pdb
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.csproj.AssemblyReference.cache
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.GeneratedMSBuildEditorConfig.editorconfig
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.AssemblyInfoInputs.cache
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.AssemblyInfo.cs
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.csproj.CoreCompileInputs.cache
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.dll
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.pdb
+C:\shitty code\c# code 5\obj\Debug\netcoreapp3.1\c# code.genruntimeconfig.cache
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.csproj.AssemblyReference.cache
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.GeneratedMSBuildEditorConfig.editorconfig
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.AssemblyInfoInputs.cache
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.AssemblyInfo.cs
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.csproj.CoreCompileInputs.cache
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.dll
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.pdb
+B:\shitty_code\c# code 5\bin\Debug\netcoreapp3.1\c# code.exe
+B:\shitty_code\c# code 5\bin\Debug\netcoreapp3.1\c# code.deps.json
+B:\shitty_code\c# code 5\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.json
+B:\shitty_code\c# code 5\bin\Debug\netcoreapp3.1\c# code.runtimeconfig.dev.json
+B:\shitty_code\c# code 5\bin\Debug\netcoreapp3.1\c# code.dll
+B:\shitty_code\c# code 5\bin\Debug\netcoreapp3.1\c# code.pdb
+B:\shitty_code\c# code 5\obj\Debug\netcoreapp3.1\c# code.genruntimeconfig.cache
