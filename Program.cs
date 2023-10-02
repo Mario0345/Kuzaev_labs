@@ -4,6 +4,7 @@ using System.Linq;
 using Lab1;
 using Lab2;
 using Lab3;
+using Lab4;
 
 namespace c__code5
 {
@@ -20,7 +21,18 @@ namespace c__code5
 						// Lab2_variant3.Second_task();
 						// Lab2_variant3.Third_task(120);
 
-						// Lab3_variant3.First_task(120);
+						// Console.WriteLine(Lab3_variant3.Task_1_LCM(9,12,7));
+						// Console.WriteLine(Lab3_variant3.Task_2(1,1,2020));
+						// Console.WriteLine(Lab3_variant3.Task_3(1556787));
+
+						// Console.WriteLine(Lab4_variant3.Task_1(1556787));
+
+
+
+
+
+
+
         }
 
 
