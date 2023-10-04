@@ -25,7 +25,10 @@ namespace c__code5
 						// Console.WriteLine(Lab3_variant3.Task_2(1,1,2020));
 						// Console.WriteLine(Lab3_variant3.Task_3(1556787));
 
-						// Console.WriteLine(Lab4_variant3.Task_1(1556787));
+						// Lab4_variant3.Task_1();
+						// Console.WriteLine(Lab4_variant3.Task_2(69));
+						// Lab4_variant3.Task_3();
+						Lab4_variant3.Task_4();
 
 
 
