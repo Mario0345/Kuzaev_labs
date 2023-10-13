@@ -66,11 +66,12 @@ namespace Lab4{
 			priceName.Add("мята",162);
 			priceName.Add("Крокант",70);
 			priceName.Add("Skittles",120);
+			priceName.Add("Барбарис",69);
 
 			var min = priceName.Values.OfType<decimal>().Min();
 			var myKey = priceName.FirstOrDefault(x => x.Value == min).Key;
 			
-			Console.WriteLine(myKey,min);
+			Console.WriteLine($"Конфета с минимальной ценой - {myKey}, цена {min}");
 
 
 		
