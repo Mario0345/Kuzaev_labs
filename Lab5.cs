@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Lab5_1{
+namespace Lab5{
 
 	// class Lab5_variant3{
 
