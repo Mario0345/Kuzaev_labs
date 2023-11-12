@@ -34,24 +34,25 @@ namespace c__code5
 
 						
 						// Lab5.Rectangle rectangle = new Rectangle();
-						// rectangle.Height = 10;
-						// rectangle.Width = 20;
-						// double square_rec = Rectangle.Rec_square(rectangle.Height,rectangle.Width);
+						// double _height = rectangle.Height = 10;
+						// double _width = rectangle.Width = 20;
+						// double square_rec = Rectangle.Rec_square(_height, _width);
 						// rectangle.Print();
-						// Console.WriteLine($"Square of the Rectangle = {square_rec}");
+						// Console.WriteLine($"Square of the Rectangle = {square_rec}\n");
 						
 						// Lab5.Triangle triangle = new Triangle();
-						// triangle.A_side = 0;
-						// triangle.B_side = 4;
-						// triangle.C_side = 5;
-						// double square_tri = Triangle.Triangle_square(3,4,5);
+						// double a =  triangle.A_side = 3;
+						// double b = triangle.B_side = 4;
+						// double c = triangle.C_side = 5;
+						// double square_tri = Triangle.Triangle_square(a,b,c);
 						// triangle.Print();
-						// Console.WriteLine($"Square of the Trianlge = {square_tri}");
+						// Console.WriteLine($"Square of the triangle = {square_tri}\n");
 
 
 						
-
-
+						// Lab6.Rectangle_ my_rec = new Rectangle_("Прямоугольник",3,5);
+						// Lab6.Triangle_ my_tri = new Triangle_("Треугольник", 6,4,5);
+						
 						
 						// Lab7_var3.Task_3();
 
