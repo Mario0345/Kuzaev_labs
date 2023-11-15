@@ -1,22 +1,11 @@
 using System;
 
-
-
-
-
 namespace Lab6
 {
 
-	public abstract class Figure{
+	
 
-	public abstract double Square_of_figure();
-
-	}
-
-
-
-
-	public class Figure1 : Figure
+	public abstract class Figure1
 	{
 		
 		private  string name;
@@ -31,6 +20,7 @@ namespace Lab6
 				if (value <= 0)
 				{
 					System.Console.WriteLine("Value must be > 0!");
+					
 				}
 				else{
 					parameter = value;
@@ -54,18 +44,19 @@ namespace Lab6
 
 
 		}
-		public override double Square_of_figure(){
+		public abstract double Square_of_figure();
+		// public override double Square_of_figure(){
 
-			double square = Math.Pow(Parameter, 2);
-			return square;
-		}
+		// 	double square = Math.Pow(Parameter, 2);
+		// 	return square;
+		// }
 
 	}
 
 
 
 
-		public class Figure2 : Figure1{
+		public abstract class Figure2 : Figure1{
 
 			
 			
@@ -89,17 +80,11 @@ namespace Lab6
 				Parameter2 = parameter2;
 			}
 
-			public override double Square_of_figure(){
-
-			double square = parameter * parameter2;
-			return square;
-		}
-
 
 		 }
 
 
-		public class Figure3 : Figure2{
+		public abstract class Figure3 : Figure2{
 
 			protected double parameter3;
 			public double Parameter3 { 
@@ -119,39 +104,31 @@ namespace Lab6
 			}
 
 
-		public override double Square_of_figure()
-		{
-			double a = parameter;
-			double b = parameter2;
-			double c = parameter3;
-			if(a + b <= c || a + c <= b || b + c <= a){
-					Console.WriteLine("Ошибка!Сумма двух сторон оказалась меньше либо равна третьей стороне!");
-				}
-                            
-				double p = (a + b + c) / 2;
-				double square_Heron = Math.Sqrt(p*(p-a)*(p-b)*(p-c));
-
-				return square_Heron;
-		}
-
 
 	}
 
 
 
 	public class Rectangle_ : Figure2{
-		private string name = "Прямоугольник";
+		private string name ;
 		public string Name
 		{
 			get { return name; }
-			set{name = value;}
+			set	{name = value;}
 				
+		}
+
+			public override double Square_of_figure(){
+
+			double square = parameter * parameter2;
+			return square;
 		}
 		
 		
 		public Rectangle_(string name, double parameter, double parameter2)
 		 : base(name,parameter,parameter2)
 		{
+			Name = name;
 			double square2 = Square_of_figure();
 			System.Console.WriteLine($"Название фигуры {name}");
 			System.Console.WriteLine($"Первый параметр {name}а {parameter}");
@@ -166,17 +143,41 @@ namespace Lab6
 
 	public class Triangle_ : Figure3{
 
-		private string name = "Треугольник";
+		private string name;
 		public string Name
 		{
 			get { return name; }
+			set { name = value; }
+			
+		}
+		
+		
+		
+
+
+			public override double Square_of_figure()
+		{
+			double a = parameter;
+			double b = parameter2;
+			double c = parameter3;
+			
+			if(a + b <= c || a + c <= b || b + c <= a){
+					Console.WriteLine("Ошибка!Сумма двух сторон оказалась меньше либо равна третьей стороне!");
+					return 0;
+				}
+                            
+				double p = (a + b + c) / 2;
+				double square_Heron = Math.Sqrt(p*(p-a)*(p-b)*(p-c));
+
+				return square_Heron;
 		}
 
 		public Triangle_(string name, double parameter, double parameter2, double parameter3)
 		 : base(name,parameter,parameter2, parameter3)
 		{
+			Name = name;
 			double square3 = Square_of_figure();
-			System.Console.WriteLine($"Название фигуры {name}");
+			System.Console.WriteLine($"Название фигуры {Name}");
 			System.Console.WriteLine($"Первый параметр {name}а: {parameter}");
 			System.Console.WriteLine($"Второй параметр {name}а: {parameter2}");
 			System.Console.WriteLine($"Третий параметр {name}а: {parameter3}");

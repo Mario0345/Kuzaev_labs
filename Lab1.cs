@@ -43,7 +43,7 @@ namespace Lab1{
 					return answer;
 				}
 
-				static public string Fourth_task(int n){
+				static public void Fourth_task(int n){
 
 					int[] arr =new int [4];
 					int[] new_arr = new int[4];
@@ -57,10 +57,11 @@ namespace Lab1{
 					{
 						if(arr[l] % 2 == 0){
 							new_arr[l] = arr[l];
+							System.Console.Write($"{arr[l]}, ");
 						}
 					}
-					string str_arr = string.Join(",",new_arr);
-					return str_arr;
+					// string str_arr = string.Join(",",new_arr);
+					// return str_arr;
 
 				}
         

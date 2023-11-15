@@ -55,14 +55,17 @@ namespace Lab2{
 		public static void Third_task(double eps){
 			
 			double sum_while = 0;
-			int n = 1;
-			double elem = (2*n-1)/Math.Pow(2,n);
-			while (sum_while <= eps)
+			int n = 0;
+			double elem;
+			do
 			{
-				sum_while += elem; 
 				n++;
-			}
-			Console.WriteLine("sum_while = " + sum_while);
+				elem = (2*n-1)/Math.Pow(2,n);
+				sum_while += elem; 
+			}while (elem >= eps);
+			
+			Console.WriteLine("sum_while = " + sum_while);	
+			System.Console.WriteLine(n);
 		
 
 

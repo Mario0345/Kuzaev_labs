@@ -1,8 +1,6 @@
 using System;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Collections.Generic;
-using System.ComponentModel;
 
 
 namespace Lab4{
@@ -64,6 +62,7 @@ namespace Lab4{
 			var priceName = new Dictionary<string,decimal>();
 			priceName.Add("M&S",108);
 			priceName.Add("мята",162);
+			priceName.Add("Барбарис2",69);
 			priceName.Add("Крокант",70);
 			priceName.Add("Skittles",120);
 			priceName.Add("Барбарис",69);
