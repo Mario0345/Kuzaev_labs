@@ -44,6 +44,13 @@ namespace Lab6
 
 
 		}
+		public Figure1(double parameter)
+		{
+			Parameter = parameter;
+			
+
+
+		}
 		public abstract double Square_of_figure();
 		// public override double Square_of_figure(){
 
@@ -79,6 +86,11 @@ namespace Lab6
 
 				Parameter2 = parameter2;
 			}
+			public Figure2(double parameter, double parameter2)
+			 : base( parameter){
+
+				Parameter2 = parameter2;
+			}
 
 
 		 }
@@ -100,6 +112,10 @@ namespace Lab6
 			  }
 			public Figure3(string name,double parameter, double parameter2, double parameter3) 
 			: base(name, parameter,parameter2){
+				Parameter3 = parameter3;
+			}
+			public Figure3(double parameter, double parameter2, double parameter3) 
+			: base(parameter,parameter2){
 				Parameter3 = parameter3;
 			}
 
@@ -125,10 +141,10 @@ namespace Lab6
 		}
 		
 		
-		public Rectangle_(string name, double parameter, double parameter2)
-		 : base(name,parameter,parameter2)
+		public Rectangle_(double parameter, double parameter2)
+		 : base(parameter,parameter2)
 		{
-			Name = name;
+			Name = "Прямоугольник";
 			double square2 = Square_of_figure();
 			System.Console.WriteLine($"Название фигуры {name}");
 			System.Console.WriteLine($"Первый параметр {name}а {parameter}");
@@ -172,12 +188,12 @@ namespace Lab6
 				return square_Heron;
 		}
 
-		public Triangle_(string name, double parameter, double parameter2, double parameter3)
-		 : base(name,parameter,parameter2, parameter3)
+		public Triangle_(double parameter, double parameter2, double parameter3)
+		 : base(parameter,parameter2, parameter3)
 		{
-			Name = name;
+			Name = "Треугольник";
 			double square3 = Square_of_figure();
-			System.Console.WriteLine($"Название фигуры {Name}");
+			System.Console.WriteLine($"Название фигуры {name}");
 			System.Console.WriteLine($"Первый параметр {name}а: {parameter}");
 			System.Console.WriteLine($"Второй параметр {name}а: {parameter2}");
 			System.Console.WriteLine($"Третий параметр {name}а: {parameter3}");

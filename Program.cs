@@ -51,17 +51,20 @@ namespace c__code5
 
 
 						
-						// Lab6.Rectangle_ my_rec = new Rectangle_("Прямоугольник",3,5);
-						// Lab6.Triangle_ my_tri = new Triangle_("Треугольник", 6,4,5);
+						// Lab6.Rectangle_ my_rec = new Rectangle_(3,5);
+						// Lab6.Triangle_ my_tri = new Triangle_(6,4,5);
 						
 						
 						// Lab7_var3.Task_3();
 
-						// Lab8.Funcs.ChessBoard(1,7);
-						Lab8.Bishop bishop = new Bishop();
-						bishop.vert_pos = 6;
-						bishop.hor_pos = 3;
-						bishop.Mov();
+						// Lab8.Bishop bishop = new Bishop();
+						// bishop.vert_pos = 4;
+						// bishop.hor_pos = 'c';
+						// bishop.Mov();
+						Lab8.Pawn pawn = new Pawn();
+						pawn.vert_pos = 4;
+						pawn.hor_pos = 'c';
+						pawn.Mov();
 
         }
 
