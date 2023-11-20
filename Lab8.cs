@@ -9,20 +9,21 @@ namespace Lab8{
 	
 
 
-		public char hor_pos;
+		private char hor_pos;
 		public char Hor_pos { get; set; }
-		public int  vert_pos;
+		private int  vert_pos;
 		public int Vert_pos { get; set; }
 		public void PrintInitial(){
-			int num_hor_pos = Funcs.Stupid_CharToNumber(hor_pos);
-			int num_vert_pos = Funcs.Stupid_IndexReversePlusOne(vert_pos);
+			int num_hor_pos = Funcs.Stupid_CharToNumber(Hor_pos);
+			int num_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
 			System.Console.Write("\nИзначальное состояние доски:");
 			Funcs.ChessBoard(num_vert_pos, num_hor_pos);
 		}
-		public int D(){
-			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(vert_pos);
-			int D_hor_pos =Funcs.Stupid_CharToNumber(hor_pos);
+		public int D_pawn(){
+			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int D_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
 			int res = 0;
+			D_vert_pos = 3;
 			while(res !=2){
 				D_vert_pos +=1;
 				D_hor_pos +=0;
@@ -30,9 +31,21 @@ namespace Lab8{
 			}
 			return res;
 		}
+		public int U_pawn(){
+			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int D_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
+			int res = 0;
+			D_vert_pos = 4;
+			while(res !=2){
+				D_vert_pos -=1;
+				D_hor_pos +=0;
+				res = Funcs.ChessBoard(D_vert_pos, D_hor_pos);
+			}
+			return res;
+		}
 		public int U(){
-			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(vert_pos);
-			int D_hor_pos =Funcs.Stupid_CharToNumber(hor_pos);
+			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int D_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
 			int res = 0;
 			while(res !=2){
 				D_vert_pos -=1;
@@ -41,11 +54,44 @@ namespace Lab8{
 			}
 			return res;
 		}
+		public int D(){
+			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int D_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
+			int res = 0;
+			while(res !=2){
+				D_vert_pos +=1;
+				D_hor_pos +=0;
+				res = Funcs.ChessBoard(D_vert_pos, D_hor_pos);
+			}
+			return res;
+		}
+		public int UU(){
+			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int D_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
+			int res = 0;
+		
+			D_vert_pos -=2;
+			D_hor_pos +=0;
+			res = Funcs.ChessBoard(D_vert_pos, D_hor_pos);
+			
+			return res;
+		}
+		public int DD(){
+			int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int D_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
+			int res = 0;
+			
+			D_vert_pos +=2;
+			D_hor_pos +=0;
+			res = Funcs.ChessBoard(D_vert_pos, D_hor_pos);
+			
+			return res;
+		}
 		public int DL(){
 			// int D_vert_pos = vert_pos;
 			//  D_vert_pos+=1;
-			int DL_vert_pos = Funcs.Stupid_IndexReversePlusOne(vert_pos);
-			int DL_hor_pos =Funcs.Stupid_CharToNumber(hor_pos);
+			int DL_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int DL_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
 			int res = 0;
 			while (res!=2)
 			{
@@ -61,8 +107,8 @@ namespace Lab8{
 			return res;
 		}
 		public int DR(){
-			int DR_vert_pos =Funcs.Stupid_IndexReversePlusOne(vert_pos) ;
-			int DR_hor_pos = Funcs.Stupid_CharToNumber(hor_pos);
+			int DR_vert_pos =Funcs.Stupid_IndexReversePlusOne(Vert_pos) ;
+			int DR_hor_pos = Funcs.Stupid_CharToNumber(Hor_pos);
 			//  D_vert_pos+=1;
 			int res = 0;
 			while (res!=2)
@@ -79,8 +125,8 @@ namespace Lab8{
 			return res;
 		}
 		public int UR(){
-			int UR_vert_pos = Funcs.Stupid_IndexReversePlusOne(vert_pos);
-			int UR_hor_pos = Funcs.Stupid_CharToNumber(hor_pos);
+			int UR_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int UR_hor_pos = Funcs.Stupid_CharToNumber(Hor_pos);
 			//  D_vert_pos+=1;
 			int res = 0;
 			while (res!=2)
@@ -97,8 +143,8 @@ namespace Lab8{
 			return res;
 		}
 		public int UL(){
-			int UL_vert_pos = Funcs.Stupid_IndexReversePlusOne(vert_pos);
-			int UL_hor_pos = Funcs.Stupid_CharToNumber(hor_pos);
+			int UL_vert_pos = Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int UL_hor_pos = Funcs.Stupid_CharToNumber(Hor_pos);
 			//  D_vert_pos+=1;
 			int res = 0;
 			while (res!=2)
@@ -116,7 +162,18 @@ namespace Lab8{
 		}
 		
 		
-	
+		public int pawn_pos(){
+			int p_vert_pos =Funcs.Stupid_IndexReversePlusOne(Vert_pos);
+			int p_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
+			// int res_0 = Funcs.ChessBoard(p_vert_pos, p_hor_pos);
+			if(p_vert_pos == 1){
+				return 1;
+			}
+			else if(p_vert_pos == 6){
+				return 2;
+			}
+			return 0;
+		}
 
 		
 
@@ -244,15 +301,32 @@ namespace Lab8{
 // int D_vert_pos = Funcs.Stupid_IndexReversePlusOne(Figure.Vert_pos);
 // 			int D_hor_pos =Funcs.Stupid_CharToNumber(Hor_pos);
 
-
+		
+		
 		public override double Mov(){
-
+			int res = pawn_pos();
+			if(res == 1){
+			PrintInitial();
+			DD();
+			D_pawn();
+			System.Console.WriteLine("------------------------------------------");
+				return 0;
+			}
+			else if(res == 2){
+			PrintInitial();
+			UU();
+			U_pawn();
+			System.Console.WriteLine("------------------------------------------");
+			return 0;
+			}
+			else if(res == 0){
 			PrintInitial();
 			U();
 			System.Console.WriteLine("------------------------------------------");
 			PrintInitial();
 			D();
 			System.Console.WriteLine("------------------------------------------");
+			}
 			return 0;
 		}
 

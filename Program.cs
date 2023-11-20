@@ -57,14 +57,25 @@ namespace c__code5
 						
 						// Lab7_var3.Task_3();
 
-						// Lab8.Bishop bishop = new Bishop();
-						// bishop.vert_pos = 4;
-						// bishop.hor_pos = 'c';
+						Lab8.Bishop bishop = new Bishop();
+						// bishop.Vert_pos = 4;
+						// bishop.Hor_pos = 'c';
 						// bishop.Mov();
+
 						Lab8.Pawn pawn = new Pawn();
-						pawn.vert_pos = 4;
-						pawn.hor_pos = 'c';
-						pawn.Mov();
+							// pawn.Vert_pos = 7;
+							// pawn.Hor_pos = 'h';
+							// pawn.Mov();
+
+							// Lab8.Pawn pawn = new Pawn();
+							// pawn.Vert_pos = 2;
+							// pawn.Hor_pos = 'h';
+							// pawn.Mov();
+
+							// Lab8.Pawn pawn = new Pawn();
+							// pawn.Vert_pos = 5;
+							// pawn.Hor_pos = 'c';
+							// pawn.Mov();
 
         }
 
